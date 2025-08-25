@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+#menu{
+
+}
+
+main{
+	display: table;
+	width: 100%;
+	height: auto;
+}
+
+#coluna-direita{
+	background: gray;
+	height: 800px;
+	width: 70%;
+	float: right;
+	padding: 10px;
+}
+
+aside{
+	display: flex;
+	flex-direction: column;
+	background: lightgray;
+	gap: 50px;
+	height: 800px;
+	width: 30%;
+	float: left;
+}
+
+#coluna-direita{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.conteudo{
+	height: 100px;
+	width: 200px;
+	background: #fff;
+}
