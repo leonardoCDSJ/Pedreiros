@@ -10,10 +10,6 @@ nav{
 	padding: 10px;
 }
 
-#menu{
-
-}
-
 main{
 	display: table;
 	width: 100%;
@@ -21,7 +17,7 @@ main{
 }
 
 #coluna-direita{
-	background: gray;
+	background: red;
 	height: 800px;
 	width: 70%;
 	float: right;
